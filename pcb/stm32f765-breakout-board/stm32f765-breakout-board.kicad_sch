@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "256bcd66-93a7-4ec7-b605-dbc945027d42")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 123.825 81.915)
+		(size 31.115 10.795)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "237a83a1-cd93-40bd-95c3-484e4b737075")
+		(property "Sheetname" "Power Regulation"
+			(at 123.825 81.2034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_regulation.kicad_sch"
+			(at 123.825 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32f765-breakout-board"
+				(path "/256bcd66-93a7-4ec7-b605-dbc945027d42"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 116.84)
+		(size 31.115 10.795)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2e093a87-a189-4fb7-b944-6fb640e1044e")
+		(property "Sheetname" "USB Connector"
+			(at 124.46 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_connector.kicad_sch"
+			(at 124.46 128.2196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32f765-breakout-board"
+				(path "/256bcd66-93a7-4ec7-b605-dbc945027d42"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.825 61.595)
+		(size 31.115 10.795)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "700d8081-3af4-47b1-ac9b-f87f9ce01503")
+		(property "Sheetname" "Microcontroller"
+			(at 123.825 60.8834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 123.825 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32f765-breakout-board"
+				(path "/256bcd66-93a7-4ec7-b605-dbc945027d42"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.825 99.06)
+		(size 31.115 10.795)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b8bef0e0-aadb-4bb3-a017-b64de0544135")
+		(property "Sheetname" "Connectors"
+			(at 123.825 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 123.825 110.4396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32f765-breakout-board"
+				(path "/256bcd66-93a7-4ec7-b605-dbc945027d42"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

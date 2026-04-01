@@ -1,0 +1,24 @@
+Robu SKU,Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
+595331,"C1,C2",2,10p,,,,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~
+595344,"C3,C4,C5,C6,C7,C8,C13,C14,C15",9,100n,,,,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~
+1544904,C9,1,10u,,,,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~
+595338,C10,1,10n,,,,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~
+1089873,"C11,C12",2,1u,,,,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~
+R136885,"C16,C17",2,2.2u,,,,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~
+,D1,1,LED,,,,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+R112445,FB1,1,FerriteBead,,,,Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder,~
+R243053,J1,1,16P_USB_C,,,,Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV,https://robu.in/wp-content/uploads/2025/08/C165948.pdf
+,J3,1,SWD,,,,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,~
+,J4,1,Conn_01x05,,,,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,~
+,J5,1,Conn_01x04,,,,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,~
+,"J6,J7",2,Conn_01x12,,,,Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical,~
+,J8,1,Conn_01x03,,,,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
+,J9,1,Conn_I2C2,,,,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,~
+R242850,R2,1,10k,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~
+"R138408,R143534","R3,R6,R7",3,1k5,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~
+R218648,"R4,R5",2,5k1,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~
+1883759,SW2,1,SW_BOOT0,,,,stm32_f765_breakout_library:new_4.5x4.5_mm_tactile_button_1883759,~
+,U1,1,STM32F765VIT6,,,,Package_QFP:LQFP-100_14x14mm_P0.5mm,https://www.st.com/resource/en/datasheet/stm32f765vi.pdf
+,U2,1,AMS1117-3.3,,,,Package_TO_SOT_SMD:SOT-223-3_TabPin2,http://www.advanced-monolithic.com/pdf/ds1117.pdf
+,U3,1,USBLC6-2SC6,,,,Package_TO_SOT_SMD:SOT-23-6,https://www.st.com/resource/en/datasheet/usblc6-2.pdf
+,Y1,1,16MHz,,,,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering,~
