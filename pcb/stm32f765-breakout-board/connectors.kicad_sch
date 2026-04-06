@@ -3825,7 +3825,7 @@
 				)
 			)
 		)
-		(property "Value" "1k5"
+		(property "Value" "10k"
 			(at 124.968 38.1 90)
 			(effects
 				(font
@@ -3860,7 +3860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Robu SKU" "R143534"
+		(property "Robu SKU" "R242850"
 			(at 123.19 38.1 90)
 			(effects
 				(font
@@ -4013,7 +4013,7 @@
 				)
 			)
 		)
-		(property "Value" "1k5"
+		(property "Value" "10k"
 			(at 130.048 40.64 90)
 			(effects
 				(font
@@ -4048,7 +4048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Robu SKU" "R143534"
+		(property "Robu SKU" "R242850"
 			(at 128.27 40.64 90)
 			(effects
 				(font
