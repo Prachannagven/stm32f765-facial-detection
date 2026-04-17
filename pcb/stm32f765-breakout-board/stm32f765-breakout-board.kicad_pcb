@@ -7,6 +7,16 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "STM32F765VIT6 Breakout Board")
+		(date "2026-04-17")
+		(rev "v5")
+		(company "Pranav Chandra N. V.")
+		(comment 1 "v2: Updated placement to gpio headers")
+		(comment 2 "v3: Properly grounded VCAP pins")
+		(comment 3 "v4: Rounded corners and changed silkscreen")
+		(comment 4 "v5: Updated titleblock")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" power)
@@ -10765,6 +10775,17 @@
 			)
 		)
 		(embedded_fonts no)
+	)
+	(gr_circle
+		(center 119.25 119.25)
+		(end 119.5 119.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "8208915f-a76d-4ab1-b7f7-e1b9928b2cc0")
 	)
 	(gr_line
 		(start 150 101)

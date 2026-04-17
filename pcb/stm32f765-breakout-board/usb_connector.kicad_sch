@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "fbbc62fd-afdb-44f4-98ec-de65d3a37fc5")
 	(paper "A4")
+	(title_block
+		(title "STM32F765VIT6 Breakout Board")
+		(date "2026-04-17")
+		(rev "v5")
+		(company "Pranav Chandra N. V.")
+		(comment 1 "v3: Added ESD Protection and Config Resistors for USB C")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names

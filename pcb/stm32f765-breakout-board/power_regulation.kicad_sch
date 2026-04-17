@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "f2a20289-2ff4-41ff-b7e9-ec9f4af5d676")
 	(paper "A4")
+	(title_block
+		(title "STM32F765VIT6 Breakout Board")
+		(date "2026-04-17")
+		(rev "v5")
+		(company "Pranav Chandra N. V.")
+		(comment 1 "v4: Updated analog circuitry filtering")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers

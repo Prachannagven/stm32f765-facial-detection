@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "256bcd66-93a7-4ec7-b605-dbc945027d42")
 	(paper "A4")
+	(title_block
+		(title "STM32F765VIT6 Breakout Board")
+		(date "2026-04-17")
+		(rev "v5")
+		(company "Pranav Chandra N. V.")
+		(comment 1 "v4: Manufactured PCB")
+		(comment 2 "v5: Updated title blocks on all pages")
+	)
 	(lib_symbols)
 	(sheet
 		(at 123.825 81.915)
