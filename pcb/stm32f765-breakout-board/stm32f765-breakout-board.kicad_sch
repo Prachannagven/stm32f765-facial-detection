@@ -98,6 +98,48 @@
 		)
 	)
 	(sheet
+		(at 124.46 134.62)
+		(size 30.48 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "47014a85-8137-45a9-9c04-dd1a46d05e6b")
+		(property "Sheetname" "Peripherals"
+			(at 124.46 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 124.46 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32f765-breakout-board"
+				(path "/256bcd66-93a7-4ec7-b605-dbc945027d42"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 123.825 61.595)
 		(size 31.115 10.795)
 		(exclude_from_sim no)
@@ -187,4 +229,25 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "main_template.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WCHCq0VAKYeYSEA1TZqxSYpSnAbvBZXs5wAOGKZeWHW4zrjCpNZ+v8JBRNXAFAAWwCj/tcf
+				qX+jwXtSz1izvRHzmSsWLKWmbz7EoJuxWLAU9TvC5YfuEwCAAOn5W04KmzDT1o/DixHJybd+b998
+				NQRAoHBRSqs6q2eNy30/BECg7IAwoQfiDiGfdYa6rV5qcqKTf+j+93ZWtvq0otAGM37vknfvm7cG
+				X/Tpc+qAWvz8io/f7+Y9zB69PZ/88x1HDVbHLoyiHuZ7UdP6pNR/e19Ok9/Ryw/eHd64dcb3Jb0J
+				RZtkkxHmQlF/btXNolE+l3JdkzsoZTk2aUSycRTNgllkis1BGlgKow6OuEpaly0wWoXjNtLAE/e9
+				xd5btO/nC7oog7/0cGx1momq9fl936QVIBCBgnVRC3Ed5qRsddl6qBaramVVrKKHOivaRTSIKHvk
+				qBWzXiLZBCJRIBpdNuk0rcFdV0VZkCyiPTYGZoBY9B57oXpFUJNqj27rxMddpSH2v3fDCQwlQbhN
+				/gGAiaABSYYUDYkkSQoZ5oBEpOaoOozVNJ4pks/fiE0ZYQwgJSGD6wSyrriywopiggHII25zAoVs
+				XFbx0JeoRBjENn6ZPNfwMAiB7v1Jao+tsR3fbItsc6cfa22SwPMnbyvPHcsCfNiQbTqtxVlLMuyT
+				Q1CBRmZJpUc4pQ9d6hFpkGKo5kDuOq5adyoQnBVWLyX04o7iaQH+xWIuAKszPgbRT71kepu0ahHJ
+				5rySzSN2G6MZTKGEeFgCpeAjEDEylaH6xVARFuhl3ozP4iGJaeTxSXanUpT5cOL42wR3pphhO//Z
+				40AJWebRI0cgaGFkJ8ZBXrR3eNWHXAgAXP2GzD6THl2sihfFfNSB65xJb3veSYfQvsmqkQcUuzti
+				bryslIAVCnt4R7z3TYeQjY9eBQ==|
+			)
+			(checksum "2F156D714875550A13BB058F8E490E47")
+		)
+	)
 )

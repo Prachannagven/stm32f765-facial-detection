@@ -10,6 +10,7 @@
 		(rev "v5")
 		(company "Pranav Chandra N. V.")
 		(comment 1 "v4: Updated analog circuitry filtering")
+		(comment 2 "v5: Changed 3V3 filtering capacitance to the correct amount")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -2129,6 +2130,12 @@
 					(unit 1)
 				)
 			)
+			(project "power_regulation"
+				(path "/f2a20289-2ff4-41ff-b7e9-ec9f4af5d676"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2226,6 +2233,12 @@
 					(unit 1)
 				)
 			)
+			(project "power_regulation"
+				(path "/f2a20289-2ff4-41ff-b7e9-ec9f4af5d676"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2289,6 +2302,12 @@
 			(project "stm32f765-breakout-board"
 				(path "/256bcd66-93a7-4ec7-b605-dbc945027d42/237a83a1-cd93-40bd-95c3-484e4b737075"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+			(project "power_regulation"
+				(path "/f2a20289-2ff4-41ff-b7e9-ec9f4af5d676"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2389,6 +2408,12 @@
 					(unit 1)
 				)
 			)
+			(project "power_regulation"
+				(path "/f2a20289-2ff4-41ff-b7e9-ec9f4af5d676"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2452,6 +2477,12 @@
 			(project "stm32f765-breakout-board"
 				(path "/256bcd66-93a7-4ec7-b605-dbc945027d42/237a83a1-cd93-40bd-95c3-484e4b737075"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+			(project "power_regulation"
+				(path "/f2a20289-2ff4-41ff-b7e9-ec9f4af5d676"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2552,6 +2583,12 @@
 					(unit 1)
 				)
 			)
+			(project "power_regulation"
+				(path "/f2a20289-2ff4-41ff-b7e9-ec9f4af5d676"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2618,6 +2655,12 @@
 					(unit 1)
 				)
 			)
+			(project "power_regulation"
+				(path "/f2a20289-2ff4-41ff-b7e9-ec9f4af5d676"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2639,7 +2682,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "22u"
 			(at 242.57 104.1462 0)
 			(effects
 				(font
@@ -2712,6 +2755,12 @@
 			(project "stm32f765-breakout-board"
 				(path "/256bcd66-93a7-4ec7-b605-dbc945027d42/237a83a1-cd93-40bd-95c3-484e4b737075"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+			(project "power_regulation"
+				(path "/f2a20289-2ff4-41ff-b7e9-ec9f4af5d676"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -2810,6 +2859,12 @@
 					(unit 1)
 				)
 			)
+			(project "power_regulation"
+				(path "/f2a20289-2ff4-41ff-b7e9-ec9f4af5d676"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2873,6 +2928,12 @@
 			(project "stm32f765-breakout-board"
 				(path "/256bcd66-93a7-4ec7-b605-dbc945027d42/237a83a1-cd93-40bd-95c3-484e4b737075"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+			(project "power_regulation"
+				(path "/f2a20289-2ff4-41ff-b7e9-ec9f4af5d676"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2973,6 +3034,12 @@
 					(unit 1)
 				)
 			)
+			(project "power_regulation"
+				(path "/f2a20289-2ff4-41ff-b7e9-ec9f4af5d676"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3067,6 +3134,12 @@
 			(project "stm32f765-breakout-board"
 				(path "/256bcd66-93a7-4ec7-b605-dbc945027d42/237a83a1-cd93-40bd-95c3-484e4b737075"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+			(project "power_regulation"
+				(path "/f2a20289-2ff4-41ff-b7e9-ec9f4af5d676"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -3165,6 +3238,12 @@
 					(unit 1)
 				)
 			)
+			(project "power_regulation"
+				(path "/f2a20289-2ff4-41ff-b7e9-ec9f4af5d676"
+					(reference "FB?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3251,6 +3330,12 @@
 			(project "stm32f765-breakout-board"
 				(path "/256bcd66-93a7-4ec7-b605-dbc945027d42/237a83a1-cd93-40bd-95c3-484e4b737075"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+			(project "power_regulation"
+				(path "/f2a20289-2ff4-41ff-b7e9-ec9f4af5d676"
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -3351,6 +3436,12 @@
 					(unit 1)
 				)
 			)
+			(project "power_regulation"
+				(path "/f2a20289-2ff4-41ff-b7e9-ec9f4af5d676"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3414,6 +3505,12 @@
 			(project "stm32f765-breakout-board"
 				(path "/256bcd66-93a7-4ec7-b605-dbc945027d42/237a83a1-cd93-40bd-95c3-484e4b737075"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+			(project "power_regulation"
+				(path "/f2a20289-2ff4-41ff-b7e9-ec9f4af5d676"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3514,6 +3611,12 @@
 					(unit 1)
 				)
 			)
+			(project "power_regulation"
+				(path "/f2a20289-2ff4-41ff-b7e9-ec9f4af5d676"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3580,6 +3683,12 @@
 					(unit 1)
 				)
 			)
+			(project "power_regulation"
+				(path "/f2a20289-2ff4-41ff-b7e9-ec9f4af5d676"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3643,6 +3752,12 @@
 			(project "stm32f765-breakout-board"
 				(path "/256bcd66-93a7-4ec7-b605-dbc945027d42/237a83a1-cd93-40bd-95c3-484e4b737075"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+			(project "power_regulation"
+				(path "/f2a20289-2ff4-41ff-b7e9-ec9f4af5d676"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3713,6 +3828,12 @@
 					(unit 1)
 				)
 			)
+			(project "power_regulation"
+				(path "/f2a20289-2ff4-41ff-b7e9-ec9f4af5d676"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3734,7 +3855,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "22u"
 			(at 205.74 104.1462 0)
 			(effects
 				(font
@@ -3816,6 +3937,12 @@
 			(project "stm32f765-breakout-board"
 				(path "/256bcd66-93a7-4ec7-b605-dbc945027d42/237a83a1-cd93-40bd-95c3-484e4b737075"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+			(project "power_regulation"
+				(path "/f2a20289-2ff4-41ff-b7e9-ec9f4af5d676"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -3916,6 +4043,12 @@
 					(unit 1)
 				)
 			)
+			(project "power_regulation"
+				(path "/f2a20289-2ff4-41ff-b7e9-ec9f4af5d676"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3979,6 +4112,12 @@
 			(project "stm32f765-breakout-board"
 				(path "/256bcd66-93a7-4ec7-b605-dbc945027d42/237a83a1-cd93-40bd-95c3-484e4b737075"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+			(project "power_regulation"
+				(path "/f2a20289-2ff4-41ff-b7e9-ec9f4af5d676"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4079,6 +4218,12 @@
 					(unit 1)
 				)
 			)
+			(project "power_regulation"
+				(path "/f2a20289-2ff4-41ff-b7e9-ec9f4af5d676"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4174,6 +4319,39 @@
 					(unit 1)
 				)
 			)
+			(project "power_regulation"
+				(path "/f2a20289-2ff4-41ff-b7e9-ec9f4af5d676"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "main_template.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WCHCq0VAKYeYSEA1TZqxSYpSnAbvBZXs5wAOGKZeWHW4zrjCpNZ+v8JBRNXAFAAWwCj/tcf
+				qX+jwXtSz1izvRHzmSsWLKWmbz7EoJuxWLAU9TvC5YfuEwCAAOn5W04KmzDT1o/DixHJybd+b998
+				NQRAoHBRSqs6q2eNy30/BECg7IAwoQfiDiGfdYa6rV5qcqKTf+j+93ZWtvq0otAGM37vknfvm7cG
+				X/Tpc+qAWvz8io/f7+Y9zB69PZ/88x1HDVbHLoyiHuZ7UdP6pNR/e19Ok9/Ryw/eHd64dcb3Jb0J
+				RZtkkxHmQlF/btXNolE+l3JdkzsoZTk2aUSycRTNgllkis1BGlgKow6OuEpaly0wWoXjNtLAE/e9
+				xd5btO/nC7oog7/0cGx1momq9fl936QVIBCBgnVRC3Ed5qRsddl6qBaramVVrKKHOivaRTSIKHvk
+				qBWzXiLZBCJRIBpdNuk0rcFdV0VZkCyiPTYGZoBY9B57oXpFUJNqj27rxMddpSH2v3fDCQwlQbhN
+				/gGAiaABSYYUDYkkSQoZ5oBEpOaoOozVNJ4pks/fiE0ZYQwgJSGD6wSyrriywopiggHII25zAoVs
+				XFbx0JeoRBjENn6ZPNfwMAiB7v1Jao+tsR3fbItsc6cfa22SwPMnbyvPHcsCfNiQbTqtxVlLMuyT
+				Q1CBRmZJpUc4pQ9d6hFpkGKo5kDuOq5adyoQnBVWLyX04o7iaQH+xWIuAKszPgbRT71kepu0ahHJ
+				5rySzSN2G6MZTKGEeFgCpeAjEDEylaH6xVARFuhl3ozP4iGJaeTxSXanUpT5cOL42wR3pphhO//Z
+				40AJWebRI0cgaGFkJ8ZBXrR3eNWHXAgAXP2GzD6THl2sihfFfNSB65xJb3veSYfQvsmqkQcUuzti
+				bryslIAVCnt4R7z3TYeQjY9eBQ==|
+			)
+			(checksum "2F156D714875550A13BB058F8E490E47")
 		)
 	)
 )
