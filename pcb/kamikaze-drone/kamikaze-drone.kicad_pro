@@ -63,7 +63,100 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|127912500|102812500|4ea4646d-e9c8-419f-8992-66d6b6f5b2b1|6f99c7ea-847c-4817-9956-a5bbb1c43791",
+          "pad-to-pad distance is fine"
+        ],
+        [
+          "clearance|127912500|103812500|e476ed7c-36d3-461a-9039-4b152068be35|cf45ae20-5e39-4210-9509-0af9a5ad9330",
+          ""
+        ],
+        [
+          "clearance|127912500|104337500|e5349cf5-a290-47c8-964b-d06c2978fa1b|e476ed7c-36d3-461a-9039-4b152068be35",
+          "pad-to-pad distance is fine"
+        ],
+        [
+          "clearance|127937500|102012500|6f99c7ea-847c-4817-9956-a5bbb1c43791|c086ffbd-37d2-48f9-b297-bc8660e8ff6f",
+          ""
+        ],
+        [
+          "clearance|128262500|104337500|33aa97f9-a0a0-4438-8731-75db39408d67|e5349cf5-a290-47c8-964b-d06c2978fa1b",
+          "Pad-to-pad distance is fine"
+        ],
+        [
+          "clearance|128437500|102012500|c086ffbd-37d2-48f9-b297-bc8660e8ff6f|91c42dd9-77c9-4c67-9ad6-f08938ff611c",
+          ""
+        ],
+        [
+          "clearance|128937500|102012500|91c42dd9-77c9-4c67-9ad6-f08938ff611c|8b7825b7-ec8a-40d6-8137-6c947061dd23",
+          ""
+        ],
+        [
+          "clearance|129437500|102462500|8b7825b7-ec8a-40d6-8137-6c947061dd23|3657f2a7-c81c-4c9b-9610-b30a1f9919d4",
+          ""
+        ],
+        [
+          "clearance|129437500|104337500|e88f6725-af50-444c-815a-8f9113da4105|2d3175b8-42a2-47f0-8145-4021fd40fe16",
+          "Acceptable since it's a pad"
+        ],
+        [
+          "clearance|129737500|102987500|3657f2a7-c81c-4c9b-9610-b30a1f9919d4|64a4caed-6a59-4346-a742-c5c874f0722c",
+          ""
+        ],
+        [
+          "clearance|129737500|103487500|64a4caed-6a59-4346-a742-c5c874f0722c|2d3175b8-42a2-47f0-8145-4021fd40fe16",
+          ""
+        ],
+        [
+          "extra_footprint|130225000|90865000|d82e0e11-c1ba-4a70-9e25-bc49325ba84e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|132210000|103400000|0a026938-1f97-4a0b-88ee-3209f5181268|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|136500000|90865000|98c6c30c-104d-484a-b1f4-e4ddbea9b195|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|150000000|79000000|7163e0e3-3be9-4dde-9d01-e340c319eecc|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|150000000|79000000|a04e596c-dcab-4c3c-90a6-9b21ee816d82|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|159000000|88500000|509e3117-a420-4571-a369-407656f9a187|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|161000000|109200000|8b46e099-7b04-4953-8f04-5fabf829e21e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|161000000|111200000|69df7d89-0caa-42bc-9b7d-7796ba29971f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|168960000|89840000|0f0a1c40-dbd2-43be-8c81-8860647638fc|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_issues|130225000|90865000|d82e0e11-c1ba-4a70-9e25-bc49325ba84e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|174657500|100000000|0f0a1c40-dbd2-43be-8c81-8860647638fc|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|134845000|115125000|590922b5-484d-4b81-a51c-21c002f61193|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -98,7 +191,7 @@
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
-        "missing_footprint": "warning",
+        "missing_footprint": "ignore",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
@@ -246,6 +339,78 @@
     "layer_presets": [
       {
         "activeLayer": -2,
+        "flipBoard": true,
+        "layers": [
+          2,
+          3,
+          7,
+          11,
+          15,
+          25,
+          29
+        ],
+        "name": "Back_Standard",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "footprint_anchors",
+          "ratsnest",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "drc_exclusions",
+          "locked_item_shadows",
+          "conflict_shadows",
+          "shapes"
+        ]
+      },
+      {
+        "activeLayer": -2,
+        "flipBoard": false,
+        "layers": [
+          0,
+          1,
+          5,
+          9,
+          13,
+          25,
+          31
+        ],
+        "name": "Front_Standard",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "footprint_anchors",
+          "ratsnest",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "drc_exclusions",
+          "locked_item_shadows",
+          "conflict_shadows",
+          "shapes"
+        ]
+      },
+      {
+        "activeLayer": -2,
         "flipBoard": false,
         "layers": [
           0,
@@ -364,6 +529,149 @@
           127
         ],
         "name": "Standard",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "footprint_anchors",
+          "ratsnest",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "drc_exclusions",
+          "locked_item_shadows",
+          "conflict_shadows",
+          "shapes"
+        ]
+      },
+      {
+        "activeLayer": -2,
+        "flipBoard": true,
+        "layers": [
+          0,
+          2,
+          5,
+          7,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          22,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          34,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127
+        ],
+        "name": "Standard_Back",
         "renderLayers": [
           "vias",
           "footprint_text",
@@ -755,7 +1063,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "Kamikaze Drone Control PCB"
   },
   "schematic": {
     "annotate_start_num": 0,

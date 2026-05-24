@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Kamikaze Drone")
-		(date "2026-05-21")
+		(date "2026-05-24")
 		(rev "v1.0")
 		(company "Pranav Chandra N. V.")
 		(comment 1 "v1.0 - First Revision")

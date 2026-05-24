@@ -6,10 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Power Management Configuration")
-		(date "2026-05-21")
-		(rev "v1.0")
+		(date "2026-05-24")
+		(rev "v1.1")
 		(company "Pranav Chandra N. V.")
 		(comment 1 "v1.0 - First Iteration")
+		(comment 2 "v1.1 - Updated netlabels and neatened the schematic")
 	)
 	(lib_symbols
 		(symbol "Battery_Management:MCP73871-2CC"
@@ -2980,6 +2981,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "MCP7871 Battery Charger + Regulator Setup"
+		(exclude_from_sim no)
+		(at 35.56 111.252 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "17019822-1d32-4221-83ed-1926511e8292")
+	)
 	(text "Analog Voltage Filtering"
 		(exclude_from_sim no)
 		(at 132.842 14.224 0)
@@ -2999,6 +3010,16 @@
 			)
 		)
 		(uuid "3074d8ae-c1c4-43e4-92f7-91055c43c5e8")
+	)
+	(text "USB Connection Input"
+		(exclude_from_sim no)
+		(at 24.13 50.292 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4e90e63b-67ef-462e-8ece-abb0ed6fe053")
 	)
 	(text "Decoupling Capacitors"
 		(exclude_from_sim no)

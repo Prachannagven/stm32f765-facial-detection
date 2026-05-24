@@ -6,10 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "STM32F765VIT6 General Configuration")
-		(date "2026-05-21")
-		(rev "v1.0")
+		(date "2026-05-24")
+		(rev "v2.0")
 		(company "Pranav Chandra N. V.")
 		(comment 1 "v1.0 - First Iteration")
+		(comment 2 "v2.0 - Connected QSPI properly and updated nrst switch footprint")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
@@ -3925,7 +3926,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 255 13 4 1)
+				(color 255 0 255 1)
 			)
 		)
 		(uuid "58ae2440-2f56-464c-bbdb-1e09255d6f67")
@@ -4063,6 +4064,10 @@
 		(uuid "4dcf7bba-e062-421d-8d20-b2034dfe3f03")
 	)
 	(no_connect
+		(at 74.93 67.31)
+		(uuid "4faae0a2-4d9b-477f-8fb4-ac408a8f721b")
+	)
+	(no_connect
 		(at 120.65 130.81)
 		(uuid "534c1ec5-ec7f-4672-b88a-d36f7cede04d")
 	)
@@ -4177,10 +4182,6 @@
 	(no_connect
 		(at 74.93 69.85)
 		(uuid "d209c86b-d80e-42b6-992c-4e750e4f4991")
-	)
-	(no_connect
-		(at 120.65 158.75)
-		(uuid "d592db3b-f27e-449b-964a-2bc6d2b75d8c")
 	)
 	(no_connect
 		(at 74.93 72.39)
@@ -5192,7 +5193,7 @@
 	)
 	(global_label "SWD_CLK"
 		(shape input)
-		(at 257.81 87.63 0)
+		(at 257.81 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5202,7 +5203,7 @@
 		)
 		(uuid "880f16f8-44bd-4967-a8e8-906269babdc2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.2618 87.63 0)
+			(at 269.2618 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,6 +5433,28 @@
 			)
 		)
 	)
+	(global_label "QSPI_NCS"
+		(shape input)
+		(at 120.65 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b70bdff4-c1f1-4697-a13f-cd69a5a2c6ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.8276 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DCMI_HSYNC"
 		(shape input)
 		(at 120.65 54.61 0)
@@ -5500,7 +5523,7 @@
 	)
 	(global_label "SWD_IO"
 		(shape input)
-		(at 257.81 85.09 0)
+		(at 257.81 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5510,7 +5533,7 @@
 		)
 		(uuid "cf4fb56b-e483-4d8b-8971-292692e8ebf7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.629 85.09 0)
+			(at 267.629 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7959,7 +7982,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 53.34 161.29 0)
+		(at 66.04 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7967,7 +7990,7 @@
 		(dnp no)
 		(uuid "a8659bf2-fa77-44b7-9437-00e48b40657c")
 		(property "Reference" "C3"
-			(at 50.038 159.512 0)
+			(at 62.738 159.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7976,7 +7999,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 48.514 163.068 0)
+			(at 61.214 163.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7985,7 +8008,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 53.34 161.29 0)
+			(at 66.04 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7994,7 +8017,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 161.29 0)
+			(at 66.04 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8003,7 +8026,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 53.34 161.29 0)
+			(at 66.04 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8012,7 +8035,7 @@
 			)
 		)
 		(property "Robu SKU" "R153134"
-			(at 53.34 161.29 0)
+			(at 66.04 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8518,7 +8541,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 66.04 161.29 0)
+		(at 53.34 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8526,7 +8549,7 @@
 		(dnp no)
 		(uuid "f0f27ddc-aae4-4ea9-9ce1-341d260d6b72")
 		(property "Reference" "C4"
-			(at 66.548 159.512 0)
+			(at 53.848 159.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8535,7 +8558,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 66.548 163.322 0)
+			(at 53.848 163.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8544,7 +8567,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 66.04 161.29 0)
+			(at 53.34 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8553,7 +8576,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 161.29 0)
+			(at 53.34 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8562,7 +8585,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 66.04 161.29 0)
+			(at 53.34 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8571,7 +8594,7 @@
 			)
 		)
 		(property "Robu SKU" "R153134"
-			(at 66.04 161.29 0)
+			(at 53.34 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -6,10 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Peripheral Configuration")
-		(date "2026-05-21")
-		(rev "v1.0")
+		(date "2026-05-24")
+		(rev "v2.0")
 		(company "Pranav Chandra N. V.")
 		(comment 1 "v1.0 - Initial Setup of Sensors")
+		(comment 2 "v2.0 - Updated QSPI connection")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x09_Odd_Even"
