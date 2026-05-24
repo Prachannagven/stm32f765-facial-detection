@@ -7144,7 +7144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
+		(property "Footprint" "kamikaze_drone_custom_footprints:button-footprint"
 			(at 255.27 30.48 0)
 			(effects
 				(font
