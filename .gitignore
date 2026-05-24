@@ -46,3 +46,6 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# Always removing things that start with ~
+~*
