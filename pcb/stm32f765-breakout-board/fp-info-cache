@@ -1,4 +1,4 @@
-27052163042659834
+27220799208718139
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107113,6 +107113,13 @@ Varistor VF
 0
 2
 2
+graphics
+logo
+
+
+0
+0
+0
 penEwise
 ANT-SMD_L3.1-W1.6
 
@@ -107148,3 +107155,10 @@ touch slider section 24386
 0
 1
 1
+pranavs-crystals
+crysal-25MHz-2.55mm_x_2.05mm-2-4G
+
+
+0
+4
+4
