@@ -13,6 +13,113 @@
 		(comment 2 "v2.0 - Updated QSPI connection")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x09_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -2418,6 +2525,12 @@
 		(uuid "568b8ba5-01ec-4a85-ac1d-74f481f29030")
 	)
 	(junction
+		(at 71.12 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6757c850-8ea6-49c1-8237-b5f3502ba021")
+	)
+	(junction
 		(at 123.19 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2494,6 +2607,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbbea8af-f912-42cc-a36a-a823025e67c8")
+	)
+	(junction
+		(at 66.04 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fff3fc8b-bb90-4bfc-9c91-5e53f195797f")
 	)
 	(no_connect
 		(at 63.5 160.02)
@@ -2875,7 +2994,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 123.19) (xy 72.39 123.19)
+			(xy 36.83 123.19) (xy 66.04 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2932,6 +3051,16 @@
 			(type default)
 		)
 		(uuid "63ccdbc7-cdc5-4866-b2f9-a3597f81b83e")
+	)
+	(wire
+		(pts
+			(xy 71.12 114.3) (xy 71.12 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67fa2eff-d8e0-492a-ac63-784578ef9b37")
 	)
 	(wire
 		(pts
@@ -2992,6 +3121,16 @@
 			(type default)
 		)
 		(uuid "79527854-4d11-4ef9-a895-e776fa01e144")
+	)
+	(wire
+		(pts
+			(xy 66.04 123.19) (xy 72.39 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a3ce09a-9bdc-4d0e-8850-16d2742f1224")
 	)
 	(wire
 		(pts
@@ -3145,7 +3284,17 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 125.73) (xy 72.39 125.73)
+			(xy 66.04 114.3) (xy 66.04 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ee27d1a-4128-48f2-ad8b-648e93abb4b8")
+	)
+	(wire
+		(pts
+			(xy 43.18 125.73) (xy 71.12 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3582,6 +3731,16 @@
 			(type default)
 		)
 		(uuid "f766a0cf-293e-43e5-83ed-c416dc16547f")
+	)
+	(wire
+		(pts
+			(xy 71.12 125.73) (xy 72.39 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa638e67-c4f9-42ec-8b55-92b1fa645710")
 	)
 	(wire
 		(pts
@@ -6466,6 +6625,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 71.12 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98a76094-ac0e-4fcc-bc07-b9ae296fe818")
+		(property "Reference" "TP4"
+			(at 69.85 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 73.66 112.2679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 76.2 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 71.12 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99b9313c-978d-4f90-86cd-545d064b120e")
+		)
+		(instances
+			(project "kamikaze-drone"
+				(path "/cb5e77c2-5384-4927-a501-b53a4a151a18/ee3fd35c-d83c-45a2-a285-e3082223ddcc"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 60.96 118.11 180)
 		(unit 1)
@@ -6667,6 +6893,73 @@
 			(project "kamikaze-drone"
 				(path "/cb5e77c2-5384-4927-a501-b53a4a151a18/ee3fd35c-d83c-45a2-a285-e3082223ddcc"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 66.04 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbf21da8-9daf-439e-8e77-7a6150220119")
+		(property "Reference" "TP3"
+			(at 64.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 68.58 112.2679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 71.12 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5de49c61-8027-4a5a-8f79-f96cb8fc830a")
+		)
+		(instances
+			(project "kamikaze-drone"
+				(path "/cb5e77c2-5384-4927-a501-b53a4a151a18/ee3fd35c-d83c-45a2-a285-e3082223ddcc"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
