@@ -2421,7 +2421,7 @@
 				)
 			)
 		)
-		(property "Value" "Brushless DC"
+		(property "Value" "DC Motor"
 			(at 234.442 84.328 90)
 			(effects
 				(font
@@ -2789,7 +2789,7 @@
 				)
 			)
 		)
-		(property "Value" "Brushless DC"
+		(property "Value" "DC Motor"
 			(at 183.642 84.328 90)
 			(effects
 				(font
@@ -2856,7 +2856,7 @@
 				)
 			)
 		)
-		(property "Value" "Brushless DC"
+		(property "Value" "DC Motor"
 			(at 132.842 84.328 90)
 			(effects
 				(font
@@ -3250,7 +3250,7 @@
 				)
 			)
 		)
-		(property "Value" "Brushless DC"
+		(property "Value" "DC Motor"
 			(at 82.042 84.328 90)
 			(effects
 				(font
