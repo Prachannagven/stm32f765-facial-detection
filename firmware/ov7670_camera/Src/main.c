@@ -117,10 +117,8 @@ int main(void) {
     MX_GPIO_Init();
     MX_DMA_Init();
     MX_DCMI_Init();
-    /*
-    HAL_DCMI_ConfigCrop(&hdcmi, 0, 0, (320 * 2) - 1, 240 - 1);
+    HAL_DCMI_ConfigCrop(&hdcmi, 0, 0, (320 * 1) - 1, 240 - 1);
     HAL_DCMI_EnableCrop(&hdcmi);
-    */
     MX_I2C2_Init();
     MX_USB_DEVICE_Init();
     /* USER CODE BEGIN 2 */
@@ -432,13 +430,13 @@ static void OV7670_Init_QVGA_RGB565(void) {
     OV7670_WriteReg(0x70, 0x3A);
     OV7670_WriteReg(0x71, 0x35);
     OV7670_WriteReg(0x72, 0x11);
-    OV7670_WriteReg(0x73, 0xF0);
+    OV7670_WriteReg(0x73, 0xF1);
     OV7670_WriteReg(0x8C, 0x00);
     OV7670_WriteReg(0xA2, 0x02);
 
     OV7670_WriteReg(0x17, 0x16);
     OV7670_WriteReg(0x18, 0x04);
-    OV7670_WriteReg(0x32, 0x80);
+    OV7670_WriteReg(0x32, 0x00);
 
     OV7670_WriteReg(0x19, 0x02);
     OV7670_WriteReg(0x1A, 0x7A);
