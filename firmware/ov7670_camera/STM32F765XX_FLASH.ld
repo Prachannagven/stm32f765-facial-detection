@@ -237,6 +237,12 @@ SECTIONS
     . = ALIGN(8);
   } >RAM
 
+  .sram (NOLOAD) : ALIGN(4)
+  {
+	  *(.sram)
+	  . = ALIGN(4);
+  } >RAM
+
 
 
   /* Remove information from the standard libraries */

@@ -1,5 +1,5 @@
 CMakeFiles/ov7670_camera.dir/Src/sysmem.c.obj: \
- /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/sysmem.c \
+ /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/sysmem.c \
  /usr/include/newlib/errno.h /usr/include/newlib/sys/errno.h \
  /usr/include/newlib/sys/reent.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \

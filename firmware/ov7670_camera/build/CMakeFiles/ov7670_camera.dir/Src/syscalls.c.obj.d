@@ -1,5 +1,5 @@
 CMakeFiles/ov7670_camera.dir/Src/syscalls.c.obj: \
- /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/syscalls.c \
+ /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/syscalls.c \
  /usr/include/newlib/sys/stat.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \

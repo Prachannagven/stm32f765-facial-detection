@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pranav/PersonalProjects/stm32_f765/ov7670_camera
+CMAKE_SOURCE_DIR = /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build
+CMAKE_BINARY_DIR = /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -107,18 +107,18 @@ cmake/stm32cubemx/clean: cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/cle
 # Target rules for target CMakeFiles/ov7670_camera.dir
 
 # All Build rule for target.
-CMakeFiles/ov7670_camera.dir/all: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/all
 CMakeFiles/ov7670_camera.dir/all: cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/all
+CMakeFiles/ov7670_camera.dir/all: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ov7670_camera.dir/build.make CMakeFiles/ov7670_camera.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ov7670_camera.dir/build.make CMakeFiles/ov7670_camera.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles --progress-num=25,26,27,28,29,30,31,32,33,34,35,36 "Built target ov7670_camera"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles --progress-num=25,26,27,28,29,30,31,32,33,34,35,36 "Built target ov7670_camera"
 .PHONY : CMakeFiles/ov7670_camera.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ov7670_camera.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles 36
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ov7670_camera.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles 0
 .PHONY : CMakeFiles/ov7670_camera.dir/rule
 
 # Convenience name for target.
@@ -128,7 +128,7 @@ ov7670_camera: CMakeFiles/ov7670_camera.dir/rule
 # codegen rule for target.
 CMakeFiles/ov7670_camera.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ov7670_camera.dir/build.make CMakeFiles/ov7670_camera.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles --progress-num=25,26,27,28,29,30,31,32,33,34,35,36 "Finished codegen for target ov7670_camera"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles --progress-num=25,26,27,28,29,30,31,32,33,34,35,36 "Finished codegen for target ov7670_camera"
 .PHONY : CMakeFiles/ov7670_camera.dir/codegen
 
 # clean rule for target.
@@ -143,14 +143,14 @@ CMakeFiles/ov7670_camera.dir/clean:
 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/all:
 	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/depend
 	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target STM32_Drivers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target STM32_Drivers"
 .PHONY : cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/all
 
 # Build rule for subdir invocation for target.
 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles 0
 .PHONY : cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule
 
 # Convenience name for target.
@@ -160,7 +160,7 @@ STM32_Drivers: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule
 # codegen rule for target.
 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Finished codegen for target STM32_Drivers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Finished codegen for target STM32_Drivers"
 .PHONY : cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/codegen
 
 # clean rule for target.
@@ -175,14 +175,14 @@ cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/clean:
 cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/all:
 	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/depend
 	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles --progress-num=21,22,23,24 "Built target USB_Device_Library"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles --progress-num=21,22,23,24 "Built target USB_Device_Library"
 .PHONY : cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/all
 
 # Build rule for subdir invocation for target.
 cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles 0
 .PHONY : cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/rule
 
 # Convenience name for target.
@@ -192,7 +192,7 @@ USB_Device_Library: cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/rule
 # codegen rule for target.
 cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles --progress-num=21,22,23,24 "Finished codegen for target USB_Device_Library"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles --progress-num=21,22,23,24 "Finished codegen for target USB_Device_Library"
 .PHONY : cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/codegen
 
 # clean rule for target.

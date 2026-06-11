@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pranav/PersonalProjects/stm32_f765/ov7670_camera
+CMAKE_SOURCE_DIR = /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build
+CMAKE_BINARY_DIR = /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx//CMakeFiles/progress.marks
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles 0
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/cmake/stm32cubemx//CMakeFiles/progress.marks
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/clean
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/preinstall
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/preinstall
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule
 .PHONY : cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ STM32_Drivers: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule
 
 # fast build rule for target.
 STM32_Drivers/fast:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build
 .PHONY : STM32_Drivers/fast
 
 # Convenience name for target.
 cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/rule:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/rule
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/rule
 .PHONY : cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ USB_Device_Library: cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/rule
 
 # fast build rule for target.
 USB_Device_Library/fast:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build
 .PHONY : USB_Device_Library/fast
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
@@ -149,7 +149,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.obj: __/__/Drivers/STM32F7x
 
 # target to build an object file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.i
@@ -157,7 +157,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.i: __/__/Drivers/STM32F7xx_
 
 # target to preprocess a source file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.i:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.i
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.i
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.i
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.s
@@ -165,7 +165,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.s: __/__/Drivers/STM32F7xx_
 
 # target to generate assembly for a file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.s:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.s
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.s
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.s
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
@@ -173,7 +173,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.obj: __/__/Drivers/S
 
 # target to build an object file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.i
@@ -181,7 +181,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.i: __/__/Drivers/STM
 
 # target to preprocess a source file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.i:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.i
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.i
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.i
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.s
@@ -189,7 +189,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.s: __/__/Drivers/STM
 
 # target to generate assembly for a file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.s:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.s
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.s
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.s
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.obj
@@ -197,7 +197,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.obj: __/__/Drivers/STM
 
 # target to build an object file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.obj:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.obj
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.obj
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.obj
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.i
@@ -205,7 +205,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.i: __/__/Drivers/STM32
 
 # target to preprocess a source file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.i:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.i
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.i
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.i
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.s
@@ -213,7 +213,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.s: __/__/Drivers/STM32
 
 # target to generate assembly for a file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.s:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.s
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.s
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.s
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.obj
@@ -221,7 +221,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.obj: __/__/Drivers/
 
 # target to build an object file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.obj:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.obj
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.obj
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.obj
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.i
@@ -229,7 +229,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.i: __/__/Drivers/ST
 
 # target to preprocess a source file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.i:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.i
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.i
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.i
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.s
@@ -237,7 +237,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.s: __/__/Drivers/ST
 
 # target to generate assembly for a file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.s:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.s
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.s
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.s
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj
@@ -245,7 +245,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.obj: __/__/Drivers/STM3
 
 # target to build an object file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.i
@@ -253,7 +253,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.i: __/__/Drivers/STM32F
 
 # target to preprocess a source file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.i:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.i
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.i
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.i
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.s
@@ -261,7 +261,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.s: __/__/Drivers/STM32F
 
 # target to generate assembly for a file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.s:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.s
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.s
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.s
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.obj
@@ -269,7 +269,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.obj: __/__/Drivers/S
 
 # target to build an object file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.obj:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.obj
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.obj
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.obj
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.i
@@ -277,7 +277,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.i: __/__/Drivers/STM
 
 # target to preprocess a source file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.i:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.i
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.i
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.i
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.s
@@ -285,7 +285,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.s: __/__/Drivers/STM
 
 # target to generate assembly for a file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.s:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.s
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.s
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.s
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.obj
@@ -293,7 +293,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.obj: __/__/Drivers/STM
 
 # target to build an object file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.obj:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.obj
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.obj
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.obj
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.i
@@ -301,7 +301,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.i: __/__/Drivers/STM32
 
 # target to preprocess a source file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.i:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.i
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.i
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.i
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.s
@@ -309,7 +309,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.s: __/__/Drivers/STM32
 
 # target to generate assembly for a file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.s:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.s
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.s
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.s
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.obj
@@ -317,7 +317,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.obj: __/__/Drivers/ST
 
 # target to build an object file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.obj:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.obj
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.obj
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.obj
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.i
@@ -325,7 +325,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.i: __/__/Drivers/STM3
 
 # target to preprocess a source file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.i:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.i
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.i
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.i
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.s
@@ -333,7 +333,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.s: __/__/Drivers/STM3
 
 # target to generate assembly for a file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.s:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.s
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.s
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.s
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.obj
@@ -341,7 +341,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.obj: __/__/Drivers
 
 # target to build an object file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.obj:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.obj
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.obj
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.obj
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.i
@@ -349,7 +349,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.i: __/__/Drivers/S
 
 # target to preprocess a source file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.i:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.i
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.i
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.i
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.s
@@ -357,7 +357,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.s: __/__/Drivers/S
 
 # target to generate assembly for a file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.s:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.s
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.s
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.s
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
@@ -365,7 +365,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.obj: __/__/Drivers/STM
 
 # target to build an object file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.i
@@ -373,7 +373,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.i: __/__/Drivers/STM32
 
 # target to preprocess a source file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.i:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.i
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.i
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.i
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.s
@@ -381,7 +381,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.s: __/__/Drivers/STM32
 
 # target to generate assembly for a file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.s:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.s
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.s
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.s
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.obj
@@ -389,7 +389,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.obj: __/__/Drivers/STM3
 
 # target to build an object file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.obj:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.obj
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.obj
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.obj
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.i
@@ -397,7 +397,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.i: __/__/Drivers/STM32F
 
 # target to preprocess a source file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.i:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.i
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.i
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.i
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.s
@@ -405,7 +405,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.s: __/__/Drivers/STM32F
 
 # target to generate assembly for a file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.s:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.s
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.s
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.s
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.obj
@@ -413,7 +413,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.obj: __/__/Drivers/S
 
 # target to build an object file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.obj:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.obj
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.obj
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.obj
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.i
@@ -421,7 +421,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.i: __/__/Drivers/STM
 
 # target to preprocess a source file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.i:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.i
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.i
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.i
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.s
@@ -429,7 +429,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.s: __/__/Drivers/STM
 
 # target to generate assembly for a file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.s:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.s
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.s
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.s
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.obj
@@ -437,7 +437,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.obj: __/__/Drivers/STM3
 
 # target to build an object file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.obj:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.obj
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.obj
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.obj
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.i
@@ -445,7 +445,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.i: __/__/Drivers/STM32F
 
 # target to preprocess a source file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.i:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.i
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.i
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.i
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.s
@@ -453,7 +453,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.s: __/__/Drivers/STM32F
 
 # target to generate assembly for a file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.s:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.s
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.s
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.s
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.obj
@@ -461,7 +461,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.obj: __/__/Drivers/S
 
 # target to build an object file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.obj:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.obj
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.obj
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.obj
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.i
@@ -469,7 +469,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.i: __/__/Drivers/STM
 
 # target to preprocess a source file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.i:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.i
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.i
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.i
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.s
@@ -477,7 +477,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.s: __/__/Drivers/STM
 
 # target to generate assembly for a file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.s:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.s
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.s
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.s
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj
@@ -485,7 +485,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.obj: __/__/Drivers/STM3
 
 # target to build an object file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.i
@@ -493,7 +493,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.i: __/__/Drivers/STM32F
 
 # target to preprocess a source file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.i:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.i
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.i
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.i
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.s
@@ -501,7 +501,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.s: __/__/Drivers/STM32F
 
 # target to generate assembly for a file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.s:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.s
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.s
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.s
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.obj
@@ -509,7 +509,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.obj: __/__/Drivers/S
 
 # target to build an object file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.obj:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.obj
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.obj
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.obj
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.i
@@ -517,7 +517,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.i: __/__/Drivers/STM
 
 # target to preprocess a source file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.i:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.i
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.i
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.i
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.s
@@ -525,7 +525,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.s: __/__/Drivers/STM
 
 # target to generate assembly for a file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.s:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.s
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.s
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.s
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
@@ -533,7 +533,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.obj: __/__/Drivers/STM3
 
 # target to build an object file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.i
@@ -541,7 +541,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.i: __/__/Drivers/STM32F
 
 # target to preprocess a source file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.i:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.i
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.i
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.i
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.s
@@ -549,7 +549,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.s: __/__/Drivers/STM32F
 
 # target to generate assembly for a file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.s:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.s
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.s
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.s
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj
@@ -557,7 +557,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.obj: __/__/Drivers/S
 
 # target to build an object file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.i
@@ -565,7 +565,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.i: __/__/Drivers/STM
 
 # target to preprocess a source file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.i:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.i
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.i
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.i
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.s
@@ -573,7 +573,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.s: __/__/Drivers/STM
 
 # target to generate assembly for a file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.s:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.s
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.s
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.s
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.obj
@@ -581,7 +581,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.obj: __/__/Drivers/STM32
 
 # target to build an object file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.obj:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.obj
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.obj
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.obj
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.i
@@ -589,7 +589,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.i: __/__/Drivers/STM32F7
 
 # target to preprocess a source file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.i:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.i
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.i
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.i
 
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.s
@@ -597,7 +597,7 @@ __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.s: __/__/Drivers/STM32F7
 
 # target to generate assembly for a file
 __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.s:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.s
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.s
 .PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.s
 
 __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.obj: __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
@@ -605,7 +605,7 @@ __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.obj: __/__/
 
 # target to build an object file
 __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
 .PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
 
 __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.i: __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
@@ -613,7 +613,7 @@ __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.i: __/__/Mi
 
 # target to preprocess a source file
 __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
 .PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
 
 __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.s: __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
@@ -621,7 +621,7 @@ __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.s: __/__/Mi
 
 # target to generate assembly for a file
 __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
 .PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
 
 __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj: __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
@@ -629,7 +629,7 @@ __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj: __/__/Midd
 
 # target to build an object file
 __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
 .PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
 
 __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.i: __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
@@ -637,7 +637,7 @@ __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.i: __/__/Middle
 
 # target to preprocess a source file
 __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
 .PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
 
 __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.s: __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
@@ -645,7 +645,7 @@ __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.s: __/__/Middle
 
 # target to generate assembly for a file
 __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
 .PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
 
 __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj: __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
@@ -653,7 +653,7 @@ __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj: __/__/Mi
 
 # target to build an object file
 __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
 .PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
 
 __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i: __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
@@ -661,7 +661,7 @@ __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i: __/__/Midd
 
 # target to preprocess a source file
 __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
 .PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
 
 __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s: __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
@@ -669,7 +669,7 @@ __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s: __/__/Midd
 
 # target to generate assembly for a file
 __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
 .PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
 
 __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj: __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
@@ -677,7 +677,7 @@ __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj: __/__/Mid
 
 # target to build an object file
 __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
 .PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
 
 __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i: __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
@@ -685,7 +685,7 @@ __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i: __/__/Middl
 
 # target to preprocess a source file
 __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
 .PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
 
 __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s: __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
@@ -693,7 +693,7 @@ __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s: __/__/Middl
 
 # target to generate assembly for a file
 __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/build.make cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
 .PHONY : __/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
 
 __/__/Src/system_stm32f7xx.obj: __/__/Src/system_stm32f7xx.c.obj
@@ -701,7 +701,7 @@ __/__/Src/system_stm32f7xx.obj: __/__/Src/system_stm32f7xx.c.obj
 
 # target to build an object file
 __/__/Src/system_stm32f7xx.c.obj:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Src/system_stm32f7xx.c.obj
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Src/system_stm32f7xx.c.obj
 .PHONY : __/__/Src/system_stm32f7xx.c.obj
 
 __/__/Src/system_stm32f7xx.i: __/__/Src/system_stm32f7xx.c.i
@@ -709,7 +709,7 @@ __/__/Src/system_stm32f7xx.i: __/__/Src/system_stm32f7xx.c.i
 
 # target to preprocess a source file
 __/__/Src/system_stm32f7xx.c.i:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Src/system_stm32f7xx.c.i
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Src/system_stm32f7xx.c.i
 .PHONY : __/__/Src/system_stm32f7xx.c.i
 
 __/__/Src/system_stm32f7xx.s: __/__/Src/system_stm32f7xx.c.s
@@ -717,7 +717,7 @@ __/__/Src/system_stm32f7xx.s: __/__/Src/system_stm32f7xx.c.s
 
 # target to generate assembly for a file
 __/__/Src/system_stm32f7xx.c.s:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Src/system_stm32f7xx.c.s
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Src/system_stm32f7xx.c.s
 .PHONY : __/__/Src/system_stm32f7xx.c.s
 
 # Help Target
@@ -813,6 +813,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -129,7 +129,7 @@ rgb = rgb.reshape((HEIGHT, WIDTH, 3))
 img = Image.fromarray(rgb, "RGB")
 
 t = dt.now().strftime("%Y%m%d_%H%M%S")
-capture_dir = os.path.expanduser("~/PersonalProjects/stm32_f765/ov7670_camera/Python/captures")
+capture_dir = os.path.expanduser("~/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Python/captures")
 os.makedirs(capture_dir, exist_ok=True)
 img.save(os.path.join(capture_dir, f"{t}.png"))
 

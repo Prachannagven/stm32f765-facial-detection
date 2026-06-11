@@ -1,9 +1,9 @@
-set(CMAKE_HOST_SYSTEM "Linux-6.17.0-29-generic")
+set(CMAKE_HOST_SYSTEM "Linux-6.17.0-35-generic")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "6.17.0-29-generic")
+set(CMAKE_HOST_SYSTEM_VERSION "6.17.0-35-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/gcc-arm-none-eabi.cmake")
+include("/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/cmake/gcc-arm-none-eabi.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

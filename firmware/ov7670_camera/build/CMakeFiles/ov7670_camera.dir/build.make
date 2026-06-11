@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pranav/PersonalProjects/stm32_f765/ov7670_camera
+CMAKE_SOURCE_DIR = /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build
+CMAKE_BINARY_DIR = /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ov7670_camera.dir/depend.make
@@ -73,157 +73,157 @@ CMakeFiles/ov7670_camera.dir/codegen:
 .PHONY : CMakeFiles/ov7670_camera.dir/codegen
 
 CMakeFiles/ov7670_camera.dir/Src/main.c.obj: CMakeFiles/ov7670_camera.dir/flags.make
-CMakeFiles/ov7670_camera.dir/Src/main.c.obj: /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/main.c
+CMakeFiles/ov7670_camera.dir/Src/main.c.obj: /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/main.c
 CMakeFiles/ov7670_camera.dir/Src/main.c.obj: CMakeFiles/ov7670_camera.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ov7670_camera.dir/Src/main.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov7670_camera.dir/Src/main.c.obj -MF CMakeFiles/ov7670_camera.dir/Src/main.c.obj.d -o CMakeFiles/ov7670_camera.dir/Src/main.c.obj -c /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ov7670_camera.dir/Src/main.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov7670_camera.dir/Src/main.c.obj -MF CMakeFiles/ov7670_camera.dir/Src/main.c.obj.d -o CMakeFiles/ov7670_camera.dir/Src/main.c.obj -c /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/main.c
 
 CMakeFiles/ov7670_camera.dir/Src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ov7670_camera.dir/Src/main.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/main.c > CMakeFiles/ov7670_camera.dir/Src/main.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/main.c > CMakeFiles/ov7670_camera.dir/Src/main.c.i
 
 CMakeFiles/ov7670_camera.dir/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ov7670_camera.dir/Src/main.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/main.c -o CMakeFiles/ov7670_camera.dir/Src/main.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/main.c -o CMakeFiles/ov7670_camera.dir/Src/main.c.s
 
 CMakeFiles/ov7670_camera.dir/Src/usb_device.c.obj: CMakeFiles/ov7670_camera.dir/flags.make
-CMakeFiles/ov7670_camera.dir/Src/usb_device.c.obj: /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/usb_device.c
+CMakeFiles/ov7670_camera.dir/Src/usb_device.c.obj: /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/usb_device.c
 CMakeFiles/ov7670_camera.dir/Src/usb_device.c.obj: CMakeFiles/ov7670_camera.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ov7670_camera.dir/Src/usb_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov7670_camera.dir/Src/usb_device.c.obj -MF CMakeFiles/ov7670_camera.dir/Src/usb_device.c.obj.d -o CMakeFiles/ov7670_camera.dir/Src/usb_device.c.obj -c /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/usb_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ov7670_camera.dir/Src/usb_device.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov7670_camera.dir/Src/usb_device.c.obj -MF CMakeFiles/ov7670_camera.dir/Src/usb_device.c.obj.d -o CMakeFiles/ov7670_camera.dir/Src/usb_device.c.obj -c /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/usb_device.c
 
 CMakeFiles/ov7670_camera.dir/Src/usb_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ov7670_camera.dir/Src/usb_device.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/usb_device.c > CMakeFiles/ov7670_camera.dir/Src/usb_device.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/usb_device.c > CMakeFiles/ov7670_camera.dir/Src/usb_device.c.i
 
 CMakeFiles/ov7670_camera.dir/Src/usb_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ov7670_camera.dir/Src/usb_device.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/usb_device.c -o CMakeFiles/ov7670_camera.dir/Src/usb_device.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/usb_device.c -o CMakeFiles/ov7670_camera.dir/Src/usb_device.c.s
 
 CMakeFiles/ov7670_camera.dir/Src/usbd_conf.c.obj: CMakeFiles/ov7670_camera.dir/flags.make
-CMakeFiles/ov7670_camera.dir/Src/usbd_conf.c.obj: /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/usbd_conf.c
+CMakeFiles/ov7670_camera.dir/Src/usbd_conf.c.obj: /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/usbd_conf.c
 CMakeFiles/ov7670_camera.dir/Src/usbd_conf.c.obj: CMakeFiles/ov7670_camera.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ov7670_camera.dir/Src/usbd_conf.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov7670_camera.dir/Src/usbd_conf.c.obj -MF CMakeFiles/ov7670_camera.dir/Src/usbd_conf.c.obj.d -o CMakeFiles/ov7670_camera.dir/Src/usbd_conf.c.obj -c /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/usbd_conf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ov7670_camera.dir/Src/usbd_conf.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov7670_camera.dir/Src/usbd_conf.c.obj -MF CMakeFiles/ov7670_camera.dir/Src/usbd_conf.c.obj.d -o CMakeFiles/ov7670_camera.dir/Src/usbd_conf.c.obj -c /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/usbd_conf.c
 
 CMakeFiles/ov7670_camera.dir/Src/usbd_conf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ov7670_camera.dir/Src/usbd_conf.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/usbd_conf.c > CMakeFiles/ov7670_camera.dir/Src/usbd_conf.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/usbd_conf.c > CMakeFiles/ov7670_camera.dir/Src/usbd_conf.c.i
 
 CMakeFiles/ov7670_camera.dir/Src/usbd_conf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ov7670_camera.dir/Src/usbd_conf.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/usbd_conf.c -o CMakeFiles/ov7670_camera.dir/Src/usbd_conf.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/usbd_conf.c -o CMakeFiles/ov7670_camera.dir/Src/usbd_conf.c.s
 
 CMakeFiles/ov7670_camera.dir/Src/usbd_desc.c.obj: CMakeFiles/ov7670_camera.dir/flags.make
-CMakeFiles/ov7670_camera.dir/Src/usbd_desc.c.obj: /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/usbd_desc.c
+CMakeFiles/ov7670_camera.dir/Src/usbd_desc.c.obj: /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/usbd_desc.c
 CMakeFiles/ov7670_camera.dir/Src/usbd_desc.c.obj: CMakeFiles/ov7670_camera.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ov7670_camera.dir/Src/usbd_desc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov7670_camera.dir/Src/usbd_desc.c.obj -MF CMakeFiles/ov7670_camera.dir/Src/usbd_desc.c.obj.d -o CMakeFiles/ov7670_camera.dir/Src/usbd_desc.c.obj -c /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/usbd_desc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ov7670_camera.dir/Src/usbd_desc.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov7670_camera.dir/Src/usbd_desc.c.obj -MF CMakeFiles/ov7670_camera.dir/Src/usbd_desc.c.obj.d -o CMakeFiles/ov7670_camera.dir/Src/usbd_desc.c.obj -c /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/usbd_desc.c
 
 CMakeFiles/ov7670_camera.dir/Src/usbd_desc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ov7670_camera.dir/Src/usbd_desc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/usbd_desc.c > CMakeFiles/ov7670_camera.dir/Src/usbd_desc.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/usbd_desc.c > CMakeFiles/ov7670_camera.dir/Src/usbd_desc.c.i
 
 CMakeFiles/ov7670_camera.dir/Src/usbd_desc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ov7670_camera.dir/Src/usbd_desc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/usbd_desc.c -o CMakeFiles/ov7670_camera.dir/Src/usbd_desc.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/usbd_desc.c -o CMakeFiles/ov7670_camera.dir/Src/usbd_desc.c.s
 
 CMakeFiles/ov7670_camera.dir/Src/usbd_cdc_if.c.obj: CMakeFiles/ov7670_camera.dir/flags.make
-CMakeFiles/ov7670_camera.dir/Src/usbd_cdc_if.c.obj: /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/usbd_cdc_if.c
+CMakeFiles/ov7670_camera.dir/Src/usbd_cdc_if.c.obj: /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/usbd_cdc_if.c
 CMakeFiles/ov7670_camera.dir/Src/usbd_cdc_if.c.obj: CMakeFiles/ov7670_camera.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ov7670_camera.dir/Src/usbd_cdc_if.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov7670_camera.dir/Src/usbd_cdc_if.c.obj -MF CMakeFiles/ov7670_camera.dir/Src/usbd_cdc_if.c.obj.d -o CMakeFiles/ov7670_camera.dir/Src/usbd_cdc_if.c.obj -c /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/usbd_cdc_if.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ov7670_camera.dir/Src/usbd_cdc_if.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov7670_camera.dir/Src/usbd_cdc_if.c.obj -MF CMakeFiles/ov7670_camera.dir/Src/usbd_cdc_if.c.obj.d -o CMakeFiles/ov7670_camera.dir/Src/usbd_cdc_if.c.obj -c /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/usbd_cdc_if.c
 
 CMakeFiles/ov7670_camera.dir/Src/usbd_cdc_if.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ov7670_camera.dir/Src/usbd_cdc_if.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/usbd_cdc_if.c > CMakeFiles/ov7670_camera.dir/Src/usbd_cdc_if.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/usbd_cdc_if.c > CMakeFiles/ov7670_camera.dir/Src/usbd_cdc_if.c.i
 
 CMakeFiles/ov7670_camera.dir/Src/usbd_cdc_if.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ov7670_camera.dir/Src/usbd_cdc_if.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/usbd_cdc_if.c -o CMakeFiles/ov7670_camera.dir/Src/usbd_cdc_if.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/usbd_cdc_if.c -o CMakeFiles/ov7670_camera.dir/Src/usbd_cdc_if.c.s
 
 CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_it.c.obj: CMakeFiles/ov7670_camera.dir/flags.make
-CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_it.c.obj: /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/stm32f7xx_it.c
+CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_it.c.obj: /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/stm32f7xx_it.c
 CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_it.c.obj: CMakeFiles/ov7670_camera.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_it.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_it.c.obj -MF CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_it.c.obj.d -o CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_it.c.obj -c /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/stm32f7xx_it.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_it.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_it.c.obj -MF CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_it.c.obj.d -o CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_it.c.obj -c /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/stm32f7xx_it.c
 
 CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_it.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/stm32f7xx_it.c > CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_it.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/stm32f7xx_it.c > CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_it.c.i
 
 CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_it.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/stm32f7xx_it.c -o CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_it.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/stm32f7xx_it.c -o CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_it.c.s
 
 CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_hal_msp.c.obj: CMakeFiles/ov7670_camera.dir/flags.make
-CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_hal_msp.c.obj: /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/stm32f7xx_hal_msp.c
+CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_hal_msp.c.obj: /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/stm32f7xx_hal_msp.c
 CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_hal_msp.c.obj: CMakeFiles/ov7670_camera.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_hal_msp.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_hal_msp.c.obj -MF CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_hal_msp.c.obj.d -o CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_hal_msp.c.obj -c /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/stm32f7xx_hal_msp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_hal_msp.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_hal_msp.c.obj -MF CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_hal_msp.c.obj.d -o CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_hal_msp.c.obj -c /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/stm32f7xx_hal_msp.c
 
 CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_hal_msp.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/stm32f7xx_hal_msp.c > CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_hal_msp.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/stm32f7xx_hal_msp.c > CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_hal_msp.c.i
 
 CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_hal_msp.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/stm32f7xx_hal_msp.c -o CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_hal_msp.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/stm32f7xx_hal_msp.c -o CMakeFiles/ov7670_camera.dir/Src/stm32f7xx_hal_msp.c.s
 
 CMakeFiles/ov7670_camera.dir/Src/sysmem.c.obj: CMakeFiles/ov7670_camera.dir/flags.make
-CMakeFiles/ov7670_camera.dir/Src/sysmem.c.obj: /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/sysmem.c
+CMakeFiles/ov7670_camera.dir/Src/sysmem.c.obj: /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/sysmem.c
 CMakeFiles/ov7670_camera.dir/Src/sysmem.c.obj: CMakeFiles/ov7670_camera.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/ov7670_camera.dir/Src/sysmem.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov7670_camera.dir/Src/sysmem.c.obj -MF CMakeFiles/ov7670_camera.dir/Src/sysmem.c.obj.d -o CMakeFiles/ov7670_camera.dir/Src/sysmem.c.obj -c /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/sysmem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/ov7670_camera.dir/Src/sysmem.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov7670_camera.dir/Src/sysmem.c.obj -MF CMakeFiles/ov7670_camera.dir/Src/sysmem.c.obj.d -o CMakeFiles/ov7670_camera.dir/Src/sysmem.c.obj -c /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/sysmem.c
 
 CMakeFiles/ov7670_camera.dir/Src/sysmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ov7670_camera.dir/Src/sysmem.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/sysmem.c > CMakeFiles/ov7670_camera.dir/Src/sysmem.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/sysmem.c > CMakeFiles/ov7670_camera.dir/Src/sysmem.c.i
 
 CMakeFiles/ov7670_camera.dir/Src/sysmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ov7670_camera.dir/Src/sysmem.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/sysmem.c -o CMakeFiles/ov7670_camera.dir/Src/sysmem.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/sysmem.c -o CMakeFiles/ov7670_camera.dir/Src/sysmem.c.s
 
 CMakeFiles/ov7670_camera.dir/Src/syscalls.c.obj: CMakeFiles/ov7670_camera.dir/flags.make
-CMakeFiles/ov7670_camera.dir/Src/syscalls.c.obj: /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/syscalls.c
+CMakeFiles/ov7670_camera.dir/Src/syscalls.c.obj: /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/syscalls.c
 CMakeFiles/ov7670_camera.dir/Src/syscalls.c.obj: CMakeFiles/ov7670_camera.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/ov7670_camera.dir/Src/syscalls.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov7670_camera.dir/Src/syscalls.c.obj -MF CMakeFiles/ov7670_camera.dir/Src/syscalls.c.obj.d -o CMakeFiles/ov7670_camera.dir/Src/syscalls.c.obj -c /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/ov7670_camera.dir/Src/syscalls.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov7670_camera.dir/Src/syscalls.c.obj -MF CMakeFiles/ov7670_camera.dir/Src/syscalls.c.obj.d -o CMakeFiles/ov7670_camera.dir/Src/syscalls.c.obj -c /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/syscalls.c
 
 CMakeFiles/ov7670_camera.dir/Src/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ov7670_camera.dir/Src/syscalls.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/syscalls.c > CMakeFiles/ov7670_camera.dir/Src/syscalls.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/syscalls.c > CMakeFiles/ov7670_camera.dir/Src/syscalls.c.i
 
 CMakeFiles/ov7670_camera.dir/Src/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ov7670_camera.dir/Src/syscalls.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/syscalls.c -o CMakeFiles/ov7670_camera.dir/Src/syscalls.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/syscalls.c -o CMakeFiles/ov7670_camera.dir/Src/syscalls.c.s
 
 CMakeFiles/ov7670_camera.dir/startup_stm32f765xx.s.obj: CMakeFiles/ov7670_camera.dir/flags.make
-CMakeFiles/ov7670_camera.dir/startup_stm32f765xx.s.obj: /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/startup_stm32f765xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building ASM object CMakeFiles/ov7670_camera.dir/startup_stm32f765xx.s.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/ov7670_camera.dir/startup_stm32f765xx.s.obj -c /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/startup_stm32f765xx.s
+CMakeFiles/ov7670_camera.dir/startup_stm32f765xx.s.obj: /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/startup_stm32f765xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building ASM object CMakeFiles/ov7670_camera.dir/startup_stm32f765xx.s.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/ov7670_camera.dir/startup_stm32f765xx.s.obj -c /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/startup_stm32f765xx.s
 
 CMakeFiles/ov7670_camera.dir/startup_stm32f765xx.s.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/ov7670_camera.dir/startup_stm32f765xx.s.i"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/startup_stm32f765xx.s > CMakeFiles/ov7670_camera.dir/startup_stm32f765xx.s.i
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/startup_stm32f765xx.s > CMakeFiles/ov7670_camera.dir/startup_stm32f765xx.s.i
 
 CMakeFiles/ov7670_camera.dir/startup_stm32f765xx.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/ov7670_camera.dir/startup_stm32f765xx.s.s"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/startup_stm32f765xx.s -o CMakeFiles/ov7670_camera.dir/startup_stm32f765xx.s.s
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/startup_stm32f765xx.s -o CMakeFiles/ov7670_camera.dir/startup_stm32f765xx.s.s
 
 CMakeFiles/ov7670_camera.dir/Src/my_usb.c.obj: CMakeFiles/ov7670_camera.dir/flags.make
-CMakeFiles/ov7670_camera.dir/Src/my_usb.c.obj: /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/my_usb.c
+CMakeFiles/ov7670_camera.dir/Src/my_usb.c.obj: /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/my_usb.c
 CMakeFiles/ov7670_camera.dir/Src/my_usb.c.obj: CMakeFiles/ov7670_camera.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/ov7670_camera.dir/Src/my_usb.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov7670_camera.dir/Src/my_usb.c.obj -MF CMakeFiles/ov7670_camera.dir/Src/my_usb.c.obj.d -o CMakeFiles/ov7670_camera.dir/Src/my_usb.c.obj -c /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/my_usb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/ov7670_camera.dir/Src/my_usb.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ov7670_camera.dir/Src/my_usb.c.obj -MF CMakeFiles/ov7670_camera.dir/Src/my_usb.c.obj.d -o CMakeFiles/ov7670_camera.dir/Src/my_usb.c.obj -c /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/my_usb.c
 
 CMakeFiles/ov7670_camera.dir/Src/my_usb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ov7670_camera.dir/Src/my_usb.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/my_usb.c > CMakeFiles/ov7670_camera.dir/Src/my_usb.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/my_usb.c > CMakeFiles/ov7670_camera.dir/Src/my_usb.c.i
 
 CMakeFiles/ov7670_camera.dir/Src/my_usb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ov7670_camera.dir/Src/my_usb.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/my_usb.c -o CMakeFiles/ov7670_camera.dir/Src/my_usb.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/my_usb.c -o CMakeFiles/ov7670_camera.dir/Src/my_usb.c.s
 
 # Object files for target ov7670_camera
 ov7670_camera_OBJECTS = \
@@ -241,30 +241,30 @@ ov7670_camera_OBJECTS = \
 
 # External object files for target ov7670_camera
 ov7670_camera_EXTERNAL_OBJECTS = \
-"/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Src/system_stm32f7xx.c.obj" \
-"/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.obj" \
-"/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.obj" \
-"/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.obj" \
-"/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj" \
-"/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj" \
-"/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.obj" \
-"/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.obj" \
-"/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj" \
-"/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj" \
-"/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.obj" \
-"/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj" \
-"/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.obj" \
-"/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj" \
-"/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj" \
-"/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.obj" \
-"/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.obj" \
-"/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.obj" \
-"/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.obj" \
-"/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.obj" \
-"/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj" \
-"/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj" \
-"/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj" \
-"/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj"
+"/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Src/system_stm32f7xx.c.obj" \
+"/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.obj" \
+"/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.obj" \
+"/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.obj" \
+"/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj" \
+"/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj" \
+"/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.obj" \
+"/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.obj" \
+"/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj" \
+"/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj" \
+"/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.obj" \
+"/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj" \
+"/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.obj" \
+"/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj" \
+"/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj" \
+"/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.obj" \
+"/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.obj" \
+"/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.obj" \
+"/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi.c.obj" \
+"/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dcmi_ex.c.obj" \
+"/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj" \
+"/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj" \
+"/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj" \
+"/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj"
 
 ov7670_camera.elf: CMakeFiles/ov7670_camera.dir/Src/main.c.obj
 ov7670_camera.elf: CMakeFiles/ov7670_camera.dir/Src/usb_device.c.obj
@@ -303,7 +303,7 @@ ov7670_camera.elf: cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Mid
 ov7670_camera.elf: cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
 ov7670_camera.elf: CMakeFiles/ov7670_camera.dir/build.make
 ov7670_camera.elf: CMakeFiles/ov7670_camera.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable ov7670_camera.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable ov7670_camera.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ov7670_camera.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -315,6 +315,6 @@ CMakeFiles/ov7670_camera.dir/clean:
 .PHONY : CMakeFiles/ov7670_camera.dir/clean
 
 CMakeFiles/ov7670_camera.dir/depend:
-	cd /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pranav/PersonalProjects/stm32_f765/ov7670_camera /home/pranav/PersonalProjects/stm32_f765/ov7670_camera /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles/ov7670_camera.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles/ov7670_camera.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ov7670_camera.dir/depend
 

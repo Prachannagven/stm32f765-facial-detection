@@ -55,7 +55,6 @@ fp-info-cache
 *.o
 *.ko
 *.obj
-*.elf
 
 # Libraries
 *.lib
@@ -75,7 +74,6 @@ fp-info-cache
 *.app
 *.i*86
 *.x86_64
-*.hex
 
 # Misc
 *.map
