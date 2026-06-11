@@ -1,0 +1,5 @@
+/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/stm32f7xx_hal_msp.c:63:6:HAL_MspInit	16	static
+/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/stm32f7xx_hal_msp.c:86:6:HAL_DCMI_MspInit	64	static
+/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/stm32f7xx_hal_msp.c:186:6:HAL_DCMI_MspDeInit	16	static
+/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/stm32f7xx_hal_msp.c:237:6:HAL_I2C_MspInit	192	static
+/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Src/stm32f7xx_hal_msp.c:284:6:HAL_I2C_MspDeInit	16	static

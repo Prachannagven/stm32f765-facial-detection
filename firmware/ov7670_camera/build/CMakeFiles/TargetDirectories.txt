@@ -1,0 +1,7 @@
+/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles/ov7670_camera.dir
+/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles/edit_cache.dir
+/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/CMakeFiles/rebuild_cache.dir
+/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir
+/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+/home/pranav/PersonalProjects/stm32_f765/ov7670_camera/build/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir

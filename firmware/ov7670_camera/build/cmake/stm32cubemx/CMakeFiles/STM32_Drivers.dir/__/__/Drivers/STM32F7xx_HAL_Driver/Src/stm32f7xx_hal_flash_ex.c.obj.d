@@ -1,0 +1,34 @@
+cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.obj: \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Inc/stm32f7xx_hal_conf.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_def.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f765xx.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/CMSIS/Include/core_cm7.h \
+ /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/CMSIS/Include/cmsis_version.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/CMSIS/Include/cmsis_compiler.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/CMSIS/Include/cmsis_gcc.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/CMSIS/Include/mpu_armv7.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F7xx/Include/system_stm32f7xx.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+ /usr/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc_ex.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_exti.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_gpio.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_gpio_ex.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dma.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dma_ex.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_cortex.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dcmi.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_flash.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_flash_ex.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_i2c.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_i2c_ex.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pwr.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pwr_ex.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usb.h \
+ /home/pranav/PersonalProjects/stm32_f765/ov7670_camera/cmake/stm32cubemx/../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd_ex.h
