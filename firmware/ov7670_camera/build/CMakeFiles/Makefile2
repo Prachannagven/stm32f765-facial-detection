@@ -107,8 +107,8 @@ cmake/stm32cubemx/clean: cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/cle
 # Target rules for target CMakeFiles/ov7670_camera.dir
 
 # All Build rule for target.
-CMakeFiles/ov7670_camera.dir/all: cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/all
 CMakeFiles/ov7670_camera.dir/all: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/all
+CMakeFiles/ov7670_camera.dir/all: cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ov7670_camera.dir/build.make CMakeFiles/ov7670_camera.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ov7670_camera.dir/build.make CMakeFiles/ov7670_camera.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/build/CMakeFiles --progress-num=25,26,27,28,29,30,31,32,33,34,35,36 "Built target ov7670_camera"
