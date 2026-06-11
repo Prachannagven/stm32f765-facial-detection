@@ -353,7 +353,6 @@ static void MX_GPIO_Init(void) {
 void HAL_DCMI_FrameEventCallback(DCMI_HandleTypeDef* hdcmi) {
     // USB_Print("Frame callback\r\n");
     frame_ready = 1;
-    HAL_DCMI_Stop(hdcmi);
 }
 
 void capture_and_send(void) {
