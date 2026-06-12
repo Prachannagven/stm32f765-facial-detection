@@ -117,7 +117,7 @@ int main(void) {
     MX_GPIO_Init();
     MX_DMA_Init();
     MX_DCMI_Init();
-    HAL_DCMI_ConfigCrop(&hdcmi, 0, 0, (320 * 1) - 1, 240 - 1);
+    HAL_DCMI_ConfigCrop(&hdcmi, 0, 0, (320 * 2) - 1, 240 - 1);
     HAL_DCMI_EnableCrop(&hdcmi);
     MX_I2C2_Init();
     MX_USB_DEVICE_Init();
@@ -425,7 +425,7 @@ static void OV7670_Init_QVGA_RGB565(void) {
     OV7670_WriteReg(0x0C, 0x04);
     OV7670_WriteReg(0x11, 0x80); // 0x80 || 0x00 for default value OR'd with no scaling on PCLK
     OV7670_WriteReg(0x12, 0x14); // Set to QVGA and RGB output. RGB565 will be configured after
-    OV7670_WriteReg(0x3E, 0x19);
+    OV7670_WriteReg(0x3E, 0x08);
     OV7670_WriteReg(0x40, 0xD0);
     OV7670_WriteReg(0x70, 0x3A);
     OV7670_WriteReg(0x71, 0x35);
