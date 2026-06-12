@@ -14,3 +14,5 @@ flash:
 	stm32_cmake_build.sh
 	stm32_project_flash.sh
 
+photo:
+	python ./Python/reciever.py

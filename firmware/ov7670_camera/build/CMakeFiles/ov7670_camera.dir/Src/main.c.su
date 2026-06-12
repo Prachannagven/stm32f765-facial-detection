@@ -12,6 +12,6 @@
 /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/main.c:407:9:OV7670_ReadReg	32	static
 /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/main.c:416:6:OV7670_WriteReg	32	static
 /home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/main.c:422:13:OV7670_Init_QVGA_RGB565	8	static
-/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/main.c:446:13:OV7670_BarsTest	16	static
-/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/main.c:492:6:MPU_Config	24	static
-/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/main.c:521:6:Error_Handler	4	static
+/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/main.c:458:13:OV7670_BarsTest	16	static
+/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/main.c:504:6:MPU_Config	24	static
+/home/pranav/PersonalProjects/kamikaze-drone/firmware/ov7670_camera/Src/main.c:533:6:Error_Handler	4	static

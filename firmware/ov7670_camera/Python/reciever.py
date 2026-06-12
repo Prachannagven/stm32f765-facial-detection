@@ -13,7 +13,7 @@ PORT = "/dev/ttyACM1"      # Linux
 
 BAUDRATE = 115200
 
-WIDTH = 320
+WIDTH = 640
 HEIGHT = 240
 
 FRAME_SIZE = WIDTH * HEIGHT * 2
@@ -106,8 +106,8 @@ print(frame[:32].hex())
 # RGB565:
 # RRRRRGGGGGGBBBBB
 
-# data = np.frombuffer(frame, dtype=">u2")
-data = np.frombuffer(frame, dtype="<u2")
+data = np.frombuffer(frame, dtype=">u2") # Big endian output, so no reversal of byte order
+# data = np.frombuffer(frame, dtype="<u2")
 
 r = (data >> 11) & 0x1F
 g = (data >> 5) & 0x3F
