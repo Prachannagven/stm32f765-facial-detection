@@ -13,7 +13,7 @@ PORT = "/dev/ttyACM1"      # Linux
 
 BAUDRATE = 115200
 
-WIDTH = 640
+WIDTH = 320
 HEIGHT = 240
 
 FRAME_SIZE = WIDTH * HEIGHT * 2
