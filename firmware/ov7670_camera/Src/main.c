@@ -18,8 +18,6 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "stm32f7xx_hal.h"
-#include "stm32f7xx_hal_dcmi.h"
 #include "usb_device.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -177,7 +175,7 @@ void SystemClock_Config(void) {
     /** Configure the main internal regulator output voltage
      */
     __HAL_RCC_PWR_CLK_ENABLE();
-    __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE1);
+    __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE3);
 
     /** Initializes the RCC Oscillators according to the specified parameters
      * in the RCC_OscInitTypeDef structure.
@@ -188,16 +186,10 @@ void SystemClock_Config(void) {
     RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
     RCC_OscInitStruct.PLL.PLLM = 8;
     RCC_OscInitStruct.PLL.PLLN = 216;
-    RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
+    RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV6;
     RCC_OscInitStruct.PLL.PLLQ = 9;
     RCC_OscInitStruct.PLL.PLLR = 2;
     if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK) {
-        Error_Handler();
-    }
-
-    /** Activate the Over-Drive mode
-     */
-    if (HAL_PWREx_EnableOverDrive() != HAL_OK) {
         Error_Handler();
     }
 
@@ -210,10 +202,10 @@ void SystemClock_Config(void) {
     RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV4;
     RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV2;
 
-    if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_7) != HAL_OK) {
+    if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_2) != HAL_OK) {
         Error_Handler();
     }
-    HAL_RCC_MCOConfig(RCC_MCO1, RCC_MCO1SOURCE_HSE, RCC_MCODIV_1);
+    HAL_RCC_MCOConfig(RCC_MCO1, RCC_MCO1SOURCE_PLLCLK, RCC_MCODIV_3);
 }
 
 /**
@@ -420,21 +412,34 @@ void OV7670_WriteReg(uint8_t reg, uint8_t value) {
 static void OV7670_Init_QVGA_RGB565(void) {
     OV7670_WriteReg(0x12, 0x80); // Reset all registers
     HAL_Delay(100);
+    /*j
+    OV7670_WriteReg(0x11, 0x01);
+    OV7670_WriteReg(0x12, 0x00);
     OV7670_WriteReg(0x0C, 0x04);
-    OV7670_WriteReg(0x11, 0x80); // 0x80 || 0x00 for default value OR'd with no scaling on PCLK
-    OV7670_WriteReg(0x12, 0x14); // Set to QVGA and RGB output. RGB565 will be configured after
     OV7670_WriteReg(0x3E, 0x19);
-    OV7670_WriteReg(0x40, 0xD0);
     OV7670_WriteReg(0x70, 0x3A);
     OV7670_WriteReg(0x71, 0x35);
     OV7670_WriteReg(0x72, 0x11);
     OV7670_WriteReg(0x73, 0xF1);
+    OV7670_WriteReg(0xA2, 0x02);
+    */
+    // Temporary Stopping
+    OV7670_WriteReg(0x12, 0x14); // Set to QVGA and RGB output. RGB565 will be configured after
+    OV7670_WriteReg(0x0C, 0x06);
+    OV7670_WriteReg(0x11,
+                    0b01000001); // 0x80 || 0x00 for default value OR'd with no scaling on PCLK
+    OV7670_WriteReg(0x3E, 0x18);
+    OV7670_WriteReg(0x40, 0xD0);
+    OV7670_WriteReg(0x70, 0x3A);
+    OV7670_WriteReg(0x71, 0x35);
+    OV7670_WriteReg(0x72, 0x11);
+    OV7670_WriteReg(0x73, 0xF8);
     OV7670_WriteReg(0x8C, 0x00);
     OV7670_WriteReg(0xA2, 0x02);
 
     OV7670_WriteReg(0x17, 0x16);
     OV7670_WriteReg(0x18, 0x04);
-    OV7670_WriteReg(0x32, 0x80);
+    OV7670_WriteReg(0x32, 0x00);
 
     OV7670_WriteReg(0x19, 0x02);
     OV7670_WriteReg(0x1A, 0x7A);
