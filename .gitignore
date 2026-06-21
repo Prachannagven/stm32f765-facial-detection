@@ -93,3 +93,6 @@ fp-info-cache
 
 # Libraries
 /lib
+
+# CMake Artefacts
+compile_commands.json

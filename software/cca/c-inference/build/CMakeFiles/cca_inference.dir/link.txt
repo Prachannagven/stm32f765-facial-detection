@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/cca_inference.dir/link.d "CMakeFiles/cca_inference.dir/c-inference/src/c-inference.c.o" -o cca_inference

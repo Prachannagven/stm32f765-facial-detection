@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/pranav/PersonalProjects/kamikaze-drone/software/cca/c-inference/build",
+  "command": "/usr/bin/cc  -I/home/pranav/PersonalProjects/kamikaze-drone/software/cca/outputs  -o CMakeFiles/cca_inference.dir/c-inference/src/c-inference.c.o -c /home/pranav/PersonalProjects/kamikaze-drone/software/cca/c-inference/src/c-inference.c",
+  "file": "/home/pranav/PersonalProjects/kamikaze-drone/software/cca/c-inference/src/c-inference.c",
+  "output": "CMakeFiles/cca_inference.dir/c-inference/src/c-inference.c.o"
+}
+]
