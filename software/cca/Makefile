@@ -24,7 +24,8 @@ clean_inference:
 	rm -rf $(C_BUILD_DIR)
 
 clean_train:
-	rm -rf $(PYTHON_OUTPUTS_DIR) 
+	rm -rf $(PYTHON_OUTPUTS_DIR)/*.npy
+	rm -rf $(PYTHON_OUTPUTS_DIR)/cca_defs.h
 
 clean: clean_inference clean_train
 

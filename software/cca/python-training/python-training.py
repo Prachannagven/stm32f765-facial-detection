@@ -80,10 +80,7 @@ threshold = np.mean(np.linalg.norm(features - centroid, axis=1)) + 3 * np.std(
 )
 
 # Exporting the stuff to be used for C inference
-if os.path.isdir("./c-inference/inc"):
-    shutil.rmtree("./c-inference/inc/", ignore_errors=False)
-    os.makedirs("./c-inference/inc/")
-else:
+if not os.path.isdir("./c-inference/inc"):
     os.makedirs("./c-inference/inc/")
 
 np.save("./c-inference/inc/lr_mean.npy", lr_mean)
@@ -96,6 +93,8 @@ f = open("./c-inference/inc/cca_defs.h", "w")
 f.write("#ifndef CCA_DEFS_H \n #define CCA_DEFS_H \n\n")
 
 f.write(f"const static float threshold = {threshold};\n")
+
+f.write(f"const static int k_components = {k}; \n")
 
 f.write(f"static const float lr_mean[{len(lr_mean.flatten())}] = {{")
 for x in lr_mean:
@@ -115,6 +114,10 @@ for x in features:
     f.write(",".join(f"{val:.8f}f" for val in x))
     f.write("},\n")
 f.write("\n};")
+
+f.write(f"static const float centroid[{k}] = {{")
+f.write(",".join(f"{val:.8f}f" for val in centroid))
+f.write("};\n")
 
 f.write("\n #endif")
 f.close()

@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/pranav/PersonalProjects/kamikaze-drone/software/cca/outputs
+C_INCLUDES = -I/home/pranav/PersonalProjects/kamikaze-drone/software/cca/./c-inference/inc
 
 C_FLAGS = 
 

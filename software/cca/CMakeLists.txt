@@ -13,6 +13,10 @@ target_sources(cca_inference
 
 target_include_directories(cca_inference
 	PRIVATE
-		outputs
+		./c-inference/inc/
 )
 
+target_link_libraries(cca_inference
+	PRIVATE
+		-lm
+)
