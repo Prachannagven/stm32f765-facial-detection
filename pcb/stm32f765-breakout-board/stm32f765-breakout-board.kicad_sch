@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "256bcd66-93a7-4ec7-b605-dbc945027d42")
 	(paper "A4")
 	(title_block
@@ -26,11 +26,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "237a83a1-cd93-40bd-95c3-484e4b737075")
 		(property "Sheetname" "Power Regulation"
 			(at 123.825 81.2034 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,6 +42,8 @@
 		)
 		(property "Sheetfile" "power_regulation.kicad_sch"
 			(at 123.825 93.2946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68,11 +72,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "2e093a87-a189-4fb7-b944-6fb640e1044e")
 		(property "Sheetname" "USB Connector"
 			(at 124.46 116.1284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -82,6 +88,8 @@
 		)
 		(property "Sheetfile" "usb_connector.kicad_sch"
 			(at 124.46 128.2196 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -110,11 +118,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "47014a85-8137-45a9-9c04-dd1a46d05e6b")
 		(property "Sheetname" "Peripherals"
 			(at 124.46 133.9084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -124,6 +134,8 @@
 		)
 		(property "Sheetfile" "peripherals.kicad_sch"
 			(at 124.46 145.3646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -152,11 +164,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "700d8081-3af4-47b1-ac9b-f87f9ce01503")
 		(property "Sheetname" "Microcontroller"
 			(at 123.825 60.8834 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -166,6 +180,8 @@
 		)
 		(property "Sheetfile" "microcontroller.kicad_sch"
 			(at 123.825 72.9746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -194,11 +210,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "b8bef0e0-aadb-4bb3-a017-b64de0544135")
 		(property "Sheetname" "Connectors"
 			(at 123.825 98.3484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -208,6 +226,8 @@
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
 			(at 123.825 110.4396 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
